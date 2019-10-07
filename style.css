@@ -1,11 +1,14 @@
 html, body {
   margin: 0;
   padding: 0;
-
 }
 
 body {
   font-size: 28px;
+}
+
+*{
+    font-family: 'Dosis', sans-serif;
 }
 
 ul {
@@ -56,4 +59,14 @@ li a:hover {
 
 .slider .slide.ativo{
   display: block;
+}
+
+.card{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.card-img-top{
+  align-items: stretch;
 }
